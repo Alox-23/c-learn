@@ -1,0 +1,52 @@
+
+/*class Surface{
+    private:
+        int width;
+        int height;
+    public:
+        Surface(int sizex, int sizey){
+            width = sizex;
+            height = sizey;
+            int* psizex = &sizey;
+            int* psizey = &sizey;
+            int self_surf[psizex][psizey] = {
+                {0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0}
+            };
+        };
+
+        int get_size(){return width, height;};
+        int get_width(){return width;};
+        int get_height(){return height;};
+
+        void blit(Surface surf){
+            std::cout << "blit\n";
+            for (int y = 0; y<surf.get_height(); y = y + 1){
+                for (int x = 0; x<surf.get_width(); x = x + 1){
+                    int* py = &y;
+                    int* px = &x;
+                    self_surf[py][px] = surf.self_surf[py][px];
+                    std::cout << "blit-for\n";
+                };
+            };
+        };
+        void draw(){
+            for (int y= 0; y < height; y = y + 1){
+                for (int x = 0; x < width; x = x + 1){
+                    int* py = &y;
+                    int* px = &x;
+                    std::cout << self_surf[py][px];
+                };
+                std::cout << "\n";
+            };
+        };
+
+};*/
+
+    /*Surface my_surface(5, 5);
+    Surface my_surface2(2, 2);
+    my_surface.blit(my_surface2);
+    my_surface.draw();*/
